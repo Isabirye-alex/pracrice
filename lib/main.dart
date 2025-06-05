@@ -23,18 +23,5 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class Alex extends StatefulWidget {
-  const Alex({super.key});
-
-  @override
-  State<Alex> createState() => _AlexState();
-}
-
-class _AlexState extends State<Alex> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
 
 
